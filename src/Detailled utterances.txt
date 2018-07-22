@@ -1,0 +1,16 @@
+
+    AboutIntent who is the developer of this app
+    AboutIntent who is the developer of this skill
+    AboutIntent who is the developer of this thing
+    AboutIntent who is the author of this
+    AboutIntent who is the author of this app
+    AboutIntent who is the author of this skill
+    AboutIntent who is the author of this thing
+    AboutIntent who wrote this
+    AboutIntent who wrote this app
+    AboutIntent who wrote this skill
+    AboutIntent who wrote this thing
+    AboutIntent who created this
+    AboutIntent who created this app
+    AboutIntent who created this skill
+    AboutIntent who created this thing

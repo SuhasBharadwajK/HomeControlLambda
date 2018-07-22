@@ -1,0 +1,12 @@
+AboutIntent who {Created} this
+AboutIntent who {Created} this {App}
+AboutIntent who is the {Developer} of this
+AboutIntent who is the {Developer} of this {App}
+ToggleIntent toggle the {DeviceName}
+ToggleIntent toggle {DeviceName}
+ToggleIntent toggle that {DeviceName}
+SwitchIntent {Action} {DeviceName} {DeviceState}
+SwitchIntent {Action} {Article} {DeviceName} {DeviceState}
+SwitchIntent {Action} {DeviceName} {DeviceState}
+SwitchIntent {Action} {DeviceState} {DeviceName}
+SwitchIntent {Action} {DeviceState} {Article} {DeviceName}
