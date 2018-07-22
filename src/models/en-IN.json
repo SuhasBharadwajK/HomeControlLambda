@@ -1,0 +1,250 @@
+{
+    "interactionModel": {
+      "languageModel": {
+        "invocationName": "home control",
+        "intents": [
+          {
+            "name": "AMAZON.FallbackIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.CancelIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.HelpIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.StopIntent",
+            "samples": []
+          },
+          {
+            "name": "AboutIntent",
+            "slots": [
+              {
+                "name": "Created",
+                "type": "CreatedVerbType"
+              },
+              {
+                "name": "App",
+                "type": "AppType"
+              },
+              {
+                "name": "Developer",
+                "type": "DeveloperType"
+              }
+            ],
+            "samples": [
+              "who {Created} this",
+              "who {Created} this {App}",
+              "who is the {Developer} of this",
+              "who is the {Developer} of this {App}"
+            ]
+          },
+          {
+            "name": "ToggleIntent",
+            "slots": [
+              {
+                "name": "Article",
+                "type": "ArticleType"
+              },
+              {
+                "name": "DeviceType",
+                "type": "DeviceType"
+              }
+            ],
+            "samples": [
+              "toggle {Article} {DeviceType}",
+              "toggle {DeviceType}"
+            ]
+          },
+          {
+            "name": "SwitchIntent",
+            "slots": [
+              {
+                "name": "Action",
+                "type": "ActionType"
+              },
+              {
+                "name": "DeviceType",
+                "type": "DeviceType"
+              },
+              {
+                "name": "DeviceState",
+                "type": "DeviceStateType"
+              },
+              {
+                "name": "Article",
+                "type": "ArticleType"
+              }
+            ],
+            "samples": [
+              "{Action} {DeviceType} {DeviceState}",
+              "{Action} {Article} {DeviceType} {DeviceState}",
+              "{Action} {DeviceState} {DeviceType}",
+              "{Action} {DeviceState} {Article} {DeviceType}"
+            ]
+          }
+        ],
+        "types": [
+          {
+            "values": [
+              {
+                "name": {
+                  "value": "created",
+                  "synonyms": [
+                    "coded",
+                    "programmed",
+                    "made",
+                    "developed",
+                    "authored",
+                    "wrote"
+                  ]
+                }
+              },
+              {
+                "name": {
+                  "value": "create",
+                  "synonyms": [
+                    "code",
+                    "program",
+                    "develop",
+                    "author",
+                    "make",
+                    "write"
+                  ]
+                }
+              }
+            ],
+            "name": "CreatedVerbType"
+          },
+          {
+            "values": [
+              {
+                "name": {
+                  "value": "developer",
+                  "synonyms": [
+                    "coder",
+                    "programmer",
+                    "owner",
+                    "convceiver",
+                    "maker",
+                    "author"
+                  ]
+                }
+              }
+            ],
+            "name": "DeveloperType"
+          },
+          {
+            "values": [
+              {
+                "name": {
+                  "value": "thing"
+                }
+              },
+              {
+                "name": {
+                  "value": "app",
+                  "synonyms": [
+                    "skill"
+                  ]
+                }
+              }
+            ],
+            "name": "AppType"
+          },
+          {
+            "values": [
+              {
+                "name": {
+                  "value": "that"
+                }
+              },
+              {
+                "name": {
+                  "value": "the"
+                }
+              }
+            ],
+            "name": "ArticleType"
+          },
+          {
+            "values": [
+              {
+                "name": {
+                  "value": "fridge",
+                  "synonyms": [
+                    "refrigerator"
+                  ]
+                }
+              },
+              {
+                "name": {
+                  "value": "AC"
+                }
+              },
+              {
+                "name": {
+                  "value": "computer",
+                  "synonyms": [
+                    "lappy",
+                    "laptop",
+                    "PC"
+                  ]
+                }
+              },
+              {
+                "name": {
+                  "value": "TV"
+                }
+              },
+              {
+                "name": {
+                  "value": "fan"
+                }
+              },
+              {
+                "name": {
+                  "value": "light"
+                }
+              }
+            ],
+            "name": "DeviceType"
+          },
+          {
+            "values": [
+              {
+                "name": {
+                  "value": "turn"
+                }
+              },
+              {
+                "name": {
+                  "value": "switch"
+                }
+              }
+            ],
+            "name": "ActionType"
+          },
+          {
+            "values": [
+              {
+                "name": {
+                  "value": "off"
+                }
+              },
+              {
+                "name": {
+                  "value": "on"
+                }
+              }
+            ],
+            "name": "DeviceStateType"
+          }
+        ]
+      }
+    }
+  }
+  

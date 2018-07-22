@@ -2,6 +2,16 @@
   "manifest": {
     "publishingInformation": {
       "locales": {
+        "en-IN": {
+          "summary": "A home automation system.",
+          "examplePhrases": [
+            "Alexa switch off the lights",
+            "Alexa switch on the fans",
+            "Alexa ask home controller to switch of the lights"
+          ],
+          "name": "HomeControl",
+          "description": "Alexa Skill to interface with home devices via a REST API."
+        },
         "en-US": {
           "summary": "A home automation system.",
           "examplePhrases": [
@@ -9,13 +19,12 @@
             "Alexa switch on the fans",
             "Alexa ask home controller to switch of the lights"
           ],
-          "name": "HomeController",
+          "name": "HomeControl",
           "description": "Alexa Skill to interface with home devices via a REST API."
         }
       },
       "isAvailableWorldwide": true,
       "testingInstructions": "Sample Testing Instructions.",
-      "category": "HOME_AUTOMATION",
       "distributionCountries": []
     },
     "apis": {

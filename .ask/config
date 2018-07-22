@@ -1,14 +1,35 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "",
+      "skill_id": "amzn1.ask.skill.95df5dd5-b14e-4ecf-9568-2e09687bc49c",
       "was_cloned": false,
+      "resources": {
+        "manifest": {
+          "eTag": "1125d4df0dbe8a9d321635423ec73e2c"
+        },
+        "interactionModel": {
+          "en-IN": {
+            "eTag": "529d5f6a58a17481da85fcb29a6318c7"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:477659550893:function:homeControl",
+            "awsRegion": "us-east-1",
+            "functionName": "homeControl",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "9df1ff77-c362-468c-b595-725b9c1f30e0"
+          }
+        ]
+      },
       "merge": {
         "manifest": {
           "apis": {
             "custom": {
               "endpoint": {
-                "uri": "ask-custom-'HomeController'-default"
+                "uri": "arn:aws:lambda:us-east-1:477659550893:function:homeControl"
               }
             }
           }
